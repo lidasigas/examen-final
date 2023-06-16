@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Formulario</title>
+    <link href="estilos.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div class="group">
+
+        <form method="POST" action="examen.php">
+            <h2><em>Formulario</em></h2>
+            <label for="nombre"> nombre <span><em>(requerido)</em></span></label>
+            <input type="text" name="nombre" class="form-input" required />
+
+            <label for="primer apellido"> primer apellido <span><em>(requerido)</em></span></label>
+            <input type="text" name="primer_apellido" class="form-input" required />
+
+            <label for="segundo apellido"> segundo apellido <span><em>(requerido)</em></span></label>
+            <input type="text" name="segundo_apellido" class="form-input" required />
+
+            <label for="email"> email <span><em>(requerido)</em></span></label>
+            <input type="email" name="email" class= "form-input" required />
+
+            <label for="login"> login <span><em>(requerido)</em></span></label>
+            <input type="text" name="login" class= "form-input" required />
+
+            <label for="password"> password <span><em>(requerido)</em></span></label>
+            <input type="text" name="password" maxlength="8"  minlength="4" class= "form-input" required />
+            
+            <input class="form-btn" name="submit" type="submit" value="Enviar" />
+
+
+        </form>
+
+    </div>
+</body>
+
+</html>

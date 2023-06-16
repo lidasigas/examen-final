@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+    color: rgb(120 140 173);
+    width: 100%;
+    border-radius: 3px;
+    line-height: 30px;
+    padding: 0 80px 0 80px;
+
+}
+
+body {
+    font-family: "Arial", Helvetica, sans-serif;
+    background-color: rgb(61, 63, 65);
+}
+
+.nombre__label {
+    font-weight: 700;
+    padding: 10px;
+    color:black;
+    position: relative;
+
+}
+
+.primer_apellido__label{
+    font-weight: 700;
+    padding: 10px;
+    color:black;
+    position: sticky;
+
+}
+
+.segundo_apellido__label{
+    font-weight: 700;
+    padding: 10px;
+    color:black;
+    position: sticky;
+
+}
+
+.email__label {
+    font-weight: 700;
+    padding: 10px;
+    color:black;
+    position: relative;
+
+}
+
+.login__label{
+    font-weight: 700;
+    padding: 10px;
+    color:black;
+    position: sticky;
+
+}
+
+.password__label{
+    font-weight: 700;
+    padding: 10px;
+    color:black;
+    position: sticky;
+
+}
+
+.submit__class {
+    height: 80px;
+    line-height: 10px;
+    width: 80%;
+    background-color: rgb(103, 129, 187);
+    color: white;
+    font-weight: bold;
+    padding:0%;
+}
